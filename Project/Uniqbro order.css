@@ -1,0 +1,22 @@
+h1 {
+	background-color:#FF5661;
+	color: white;
+	text-align: center;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: bold;
+}
+
+*{
+	text-align: center;
+}
+
+#first{
+	border-style:solid;
+	border-color: FF5581;
+	
+}
+
+#second{
+	border-style:solid;
+	border-color: FF5581;
+}

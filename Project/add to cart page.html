@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>All Products - Uniqbro</title>
+	<link rel="stylesheet" href="home.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<a href="home page.html"><img src="../../../../Desktop/software/DreamWeaver/Red uniqbro logo.png" width="125px"></a>
+		</div><!--end of logo--> 
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="home page.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="About Us Page.html">About</a></li>
+				<li><a href="login page.html">Account</a></li>
+				<li><a href="add to cart page.html"><img src="../../../../../Downloads/bag icon.png" width="30px" height="30px"></a></li>
+			</ul>
+		</nav>
+		
+		<img src="../../../../../Downloads/menu icon.png" class="menu-icon" onClick="menutoggle()">
+	</div><!--end of navbar--> 
+	</div><!--end of container--> 
+
+	
+	
+	<!----cart items details---->
+	
+	<div class="small-container cart-page">
+		
+		<table>
+			<tr>
+				<th>Product</th>
+				<th>Quantity</th>
+				<th>Subtotal</th>
+			</tr>
+			<tr>
+				<td>
+					<div class="cart-info">
+						<img src="../../../../../Downloads/value buy mickey mouse.png">
+						<div>
+							<p>Disney Mickey & Friends UT (Short Sleeve Graphic T-Shirt)</p>
+							<small>Price: RM29.90</small><br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				
+				</td>
+				<td><input type="number" value="1"</td>
+				<td>RM29.90</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="cart-info">
+						<img src="../../../../../Downloads/AiRism Women Hoodie Gray.png">
+						<div>
+							<p>AIRism UV Protection Mesh Full-Zip Long Sleeve Hoodie</p>
+							<small>Price: RM79.90</small><br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				
+				</td>
+				<td><input type="number" value="1"</td>
+				<td>RM79.90</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="cart-info">
+						<img src="../../../../../Downloads/airrism mask 3.png">
+						<div>
+							<p>AIRism UV Protection Mesh Full-Zip Long Sleeve Hoodie</p>
+							<small>Price: RM39.90</small><br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				
+				</td>
+				<td><input type="number" value="1"</td>
+				<td>RM39.90</td>
+			</tr>
+		</table>
+		
+		<div class="total-price">
+		
+			<table>
+				<tr>
+					<td>Subtotal</td>
+					<td>RM149.70</td>
+				</tr>
+				<tr>
+					<td>tax</td>
+					<td>RM0.00</td>
+				</tr>
+				<tr>
+					<td>Total</td>
+					<td>RM149.70</td>
+				</tr>
+				
+			</table>
+		<a href="" class="btn">buy now</a>
+		</div><!--end of total-price-->
+		
+		
+		
+	</div>	<!--end of small-container cart-page-->
+
+	
+
+		
+		
+		
+
+
+	
+	
+	
+	
+<!------ footer ------>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and ios mobile phone</p>
+					<div class="app-logo">
+						<img src="../../../../../Downloads/playstore logo 1.png">
+						<img src="../../../../../Downloads/appstore logo.png">
+					</div>
+				</div><!---end of footer-col-1--->
+				<div class="footer-col-2">
+					<img src="../../../../Desktop/software/DreamWeaver/Red uniqbro logo 1.png">
+					<p>You are not what you wear</p>
+				</div><!---end of footer-col-2--->
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Information</li>
+						<li>Return Policy</li>
+						<li>Coupons</li>
+						<li>Size Chart</li>
+					</ul>
+				</div><!---end of footer-col-3--->
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>YouTube</li>
+					</ul>
+				</div><!---end of footer-col-1--->
+			</div><!---end of row--->
+			<hr>
+			<p class="copyright">Copyright 2022 - Muqry</p>
+			<p class="copyright">last modify: 6 November 2022</p>
+		</div><!---end of container--->
+	</div><!---end of footer--->
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!----js for toggle menu---->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px";)
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+	</script>
+	
+
+	
+	
+</body>
+</html>
